@@ -1,0 +1,83 @@
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  .mauve{
+    color: rgb(76, 0, 255);
+  }
+h2{
+  color: rgb(179, 179, 179);
+  font-size: 15px;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+    img {
+    height: 80vh;
+    float: right;
+    margin-right: 40px;
+    margin-top: 40px;
+    border-radius: 5%;
+  }
+
+  #content {
+   display: flex;
+   flex-direction: column;
+   width: 50%;
+   margin-left:90px;
+   padding-top: 180px;
+  }
+  #input-fields {
+    width:20%;
+    margin-top: 10px;
+  }
+
+  .input-1 {
+    display: block;
+    width: 440px;
+    height: 25px;
+  }
+
+  #fields{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 92%;
+    margin-top: 10px;
+  }
+
+  #buttons {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    
+  }
+
+  .submit {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    height: 30px;
+    background-color: rgb(76, 0, 255);
+    color: #ffff;
+    border: 1px solid gray;
+    border-radius: 5px;
+  }
+  
+
+  .google{
+    margin-bottom: 20px;
+    height: 30px;
+    color: gray;
+    background-color:white;
+    border: 1px solid gray;
+    border-radius: 5px;
+  }
+
+  #account {
+    text-align: center;
+    width: 60%;
+
+  }
+
+  a {
+    text-decoration: none;
+  }
